@@ -1,0 +1,22 @@
+.about_emoji {
+    gap: .25rem !important;
+
+    div {
+        padding: 0 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 8px;
+        transition: background 300ms;
+        cursor: pointer;
+        font-size: .9rem;
+
+
+        &:hover {
+            background-color: unset !important;
+        }
+        span {
+            font-size: 1.5rem;
+        }
+    }
+}

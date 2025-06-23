@@ -1,30 +1,34 @@
 export const EMOJI_MAP = {
   "✨": {
-    color: "#EFD6D2",
-    description: "This emoji represents gratitude"
+    color: "#F2D7D9",
+    description: "This emoji represents appreciation — the kind you never said out loud but always felt."
   },
   "🫂": {
     color: "#D6E4D4",
-    description: "This emoji represents friendship."
+    description: "This emoji represents friendship — the kind that never needed words, but meant everything."
   },
+  "💖": {
+    color: "#FFB7D5",
+    description: "This emoji represents spoken love — the words that actually made it out, for better or worse"
+  }, // This one's for me, for you - Mohi
   "💌": {
-    color: "#F3BFC1",
-    description: "This emoji represents unspoken love."
+    color: "#F4C2C2",
+    description: "This emoji represents unspoken love — the crush, the almost, the maybe, the never-told."
   },
   "💔": {
-    color: "#C97C8B",
-    description: "This emoji represents heartbreak."
+    color: "#C67171",
+    description: "This emoji represents heartbreak — when something ended and you didn’t get to say why it mattered."
   },
   "😡": {
-    color: "#D46A6A",
-    description: "This emoji represents anger, frustration or betrayal."
+    color: "#D9695F",
+    description: "This emoji represents betrayal — the hurt that turned into silence because yelling didn’t help."
   },
   "🤍": {
-    color: "#F5EDF0",
-    description: "This emoji represents surrender."
+    color: "#F1EDF0",
+    description: "This emoji represents surrender — the moment you gave up, not because you wanted to, but because you had to."
   },
   "🔒": {
-    color: "#B2A2B5",
-    description: "This emoji represents secret."
+    color: "#B9A3C6",
+    description: "This emoji represents a secret — the stuff you’ll never say out loud, except maybe here."
   }
 };
