@@ -4,22 +4,11 @@ nav {
     padding: 1rem 2rem;
     align-items: center;
 
-    .icon {
-        display: flex;
-        align-items: center;
-        line-height: 1;
-        font-weight: bold;
-
-        img {
-            height: 3rem;
-            margin-right: .25rem;
-        }
-    }
-
-    .options {
+    .options-desktop {
         display: flex;
         align-items: center;
         gap: 1.5rem;
+
 
         .option {
             display: flex;
@@ -48,7 +37,6 @@ nav {
                 }
             }
         }
-
         .post_a_message {
             color: #1c1c1c;
             padding: 0.25rem 1rem;
@@ -60,6 +48,112 @@ nav {
                 background: black;
                 color: white;
             }
+        }
+    }
+    .options-mobile {
+        display: none;
+        flex-direction: column;
+        gap: .4rem;
+
+        .ham {
+            width: 2rem;
+            border: 1px solid black;
+            background: black;
+            transition: all 150ms linear;
+        }
+
+        .ham1 {
+
+        }
+        .ham2 {
+            transition-delay: 150ms;
+        }
+        .ham3 {
+        }
+
+        &.options-shown {
+            .ham1 {
+                transform: translateY(calc(.4rem + 2px)) rotate(45deg);
+            }
+            .ham2 {
+                transform: rotate(225deg);
+                opacity: 0;
+            }
+            .ham3 {
+                transform: translateY(calc(-.4rem - 2px)) rotate(-45deg);
+            }
+        }
+    }
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    font-weight: bold;
+
+    img {
+        height: 3rem;
+        margin-right: .25rem;
+    }
+}
+
+
+.mobile-menu-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 300ms linear;
+    visibility: hidden;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.35);
+
+    .mobile-menu-content {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        max-width: 15rem;
+        transform: translateX(-100%);
+        transition: all 300ms linear;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+        text-align: center;
+        box-sizing: border-box;
+
+        .icon {
+            margin-bottom: 4rem;
+        }
+
+        .post_a_message {
+            border: 1px solid black;
+            padding: .75rem 2rem;
+        }
+
+    }
+
+    &.mobile-menu-shown {
+        opacity: 1;
+        visibility: visible;
+
+        .mobile-menu-content {
+            transform: translateX(0);
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        .options-desktop {
+            display: none;
+        }
+        .options-mobile {
+            display: flex;
         }
     }
 }

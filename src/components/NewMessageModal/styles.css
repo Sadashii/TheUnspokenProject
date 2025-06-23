@@ -5,9 +5,13 @@
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 4px;
+        margin-top: 3px;
 
         .emoji_icon {
             font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 4px;
+
         }
 
         .selected_emoji {
@@ -36,8 +40,10 @@
     .submit {
         display: flex;
         justify-content: center;
+        margin-bottom: 1rem;
 
         button {
+            cursor: pointer;
             padding: 0.5rem 2rem;
             background: #D8C4D8;
             font-weight: bold;

@@ -1,0 +1,13 @@
+.aboutmodal {
+    font-size: .9rem;
+
+    a {
+        color: #b53a2f;
+        transition: all 250ms linear;
+        text-decoration: none;
+
+        &:visited, &:hover {
+            text-decoration: underline;
+        }
+    }
+}
