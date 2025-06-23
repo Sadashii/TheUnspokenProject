@@ -26,7 +26,7 @@ const Navbar = ({ onClickCreate, notes, OFFSET }) => {
     <>
       <nav>
         <div className="icon">
-          <img src="/logo_black.png" alt="The Unspoken Project logo"/>
+          <img src="./logo_black.png" alt="The Unspoken Project logo"/>
           The<br/>Unspoken<br/>Project
         </div>
         <div className="options">
