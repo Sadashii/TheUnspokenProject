@@ -1,0 +1,16 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.stage {
+    background: #E1CADF;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.tools {
+    position: absolute;
+    z-index: 1;
+}
