@@ -3,7 +3,7 @@ import {Circle, Group, Rect, Text} from "react-konva";
 import { EMOJI_MAP } from "../../data/emoji_map.js";
 
 const MessageContainer = ({ note, OFFSET, ...props }) => {
-  const WIDTH = 160;
+  const WIDTH = 180;
   const FONT_SIZE = 12;
 
   const textRef = useRef();
@@ -51,13 +51,14 @@ const MessageContainer = ({ note, OFFSET, ...props }) => {
         fontSize={FONT_SIZE * 1.5}
         offsetX={6}
         offsetY={2}
+        width={WIDTH}
         />
       <Text
         ref={textRef}
         text={`     for ${note.to_name}\n\n${note.content}`}
         padding={6}
         fill="#111"
-        width={160}
+        width={WIDTH}
         wrap="word"
       />
     </Group>

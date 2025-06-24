@@ -48,7 +48,6 @@ function App() {
           }
 
           const onCanvasClick = (event) => {
-            console.log(event.evt.offsetX, event.evt.offsetY)
 
 
             if (newMessageData.editing_coordinates) {
@@ -66,7 +65,6 @@ function App() {
                   }])
                   .select();
 
-                console.log(data)
                 if (error) console.error('Supabase error:', error);
                 else setNotes(prev => ([...prev, data[0]]));
               };
@@ -107,7 +105,7 @@ function App() {
                 >
                   <Layer>
                     {notes.map(note => (
-                      <MessageContainer key={note.id} note={note} OFFSET={OFFSET} onClick={e => console.log(e)} />
+                      <MessageContainer key={note.id} note={note} OFFSET={OFFSET} onClick={e => console.log("Container clicked")} />
                     ))}
                   </Layer>
                 </Stage>
