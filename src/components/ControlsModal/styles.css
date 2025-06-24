@@ -1,0 +1,20 @@
+.controls-modal {
+
+    table {
+        width: 100%;
+        align-items: center;
+
+
+        tr {
+            text-align: center;
+
+            td {
+                padding-bottom: 1rem;
+            }
+
+            td:first-child {
+                font-weight: bold;
+            }
+        }
+    }
+}

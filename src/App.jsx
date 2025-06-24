@@ -3,7 +3,7 @@ import {useState, useEffect} from "react";
 import supabase from "./supabase.js";
 import {TransformWrapper, TransformComponent} from "react-zoom-pan-pinch";
 import {Stage, Layer} from "react-konva"
-import { MessageContainer, Navbar, NewMessageModal } from "./components/index.js";
+import {ControlsModal, MessageContainer, Navbar, NewMessageModal} from "./components/index.js";
 
 
 const STAGE_SIZE = 5000;
@@ -11,9 +11,11 @@ const OFFSET = STAGE_SIZE / 2;
 
 function App() {
   const [notes, setNotes] = useState([]);
+  const [showControls, setShowControls] = useState(false);
 
 
   useEffect(() => {
+      setShowControls(true)
     const fetchNotes = async () => {
       const { data, error } = await supabase.from('notes').select('*');
       if (error) console.error('Supabase error:', error);
@@ -114,6 +116,8 @@ function App() {
           )
         }}
       </TransformWrapper>
+        <ControlsModal show={showControls} onClose={() => setShowControls(false)}/>
+        <div className="controls-helper" onClick={() => setShowControls(true)}>?</div>
     </div>
   );
 }
