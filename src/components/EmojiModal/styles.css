@@ -15,6 +15,7 @@
         &:hover {
             background-color: unset !important;
         }
+
         span {
             font-size: 1.5rem;
         }

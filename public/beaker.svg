@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="11.5 0 40 75" fill="none" stroke="black" stroke-width="3">
+    <rect x="23.5" y="0" width="16" height="20" fill="black" stroke="none"/>
+
+    <!-- Beaker body -->
+    <path d="M25 20v17.1c-7.1 2.6-12 9.4-12 17.3 0 10.2 8.3 18.6 18.5 18.6S50 64.6 50 54.4c0-7.9-4.9-14.7-12-17.3V20h-13z"/>
+</svg>

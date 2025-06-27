@@ -8,11 +8,15 @@
 
 ## 📖 About
 
-**The Unspoken Project** is an interactive wall of anonymous messages — a version of [**The Unsent Project**](https://theunsentproject.com), reimagined by me, beyond just love letters.
+**The Unspoken Project** is an interactive wall of anonymous messages — a version of [**The Unsent Project
+**](https://theunsentproject.com), reimagined by me, beyond just love letters.
 
-Where The Unsent Project collects unsent texts to past lovers, **The Unspoken Project** invites users to express **anything they've never been able to say** — from friendship, betrayal, and surrender to deep secrets and silent grief — all anonymously.
+Where The Unsent Project collects unsent texts to past lovers, **The Unspoken Project** invites users to express *
+*anything they've never been able to say** — from friendship, betrayal, and surrender to deep secrets and silent grief —
+all anonymously.
 
-Every note appears on an almost (infinite) canvas, linked with emotion-coded emojis, forming a universe of what was left unspoken.
+Every note appears on an almost (infinite) canvas, linked with emotion-coded emojis, forming a universe of what was left
+unspoken.
 
 ---
 

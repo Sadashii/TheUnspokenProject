@@ -40,6 +40,7 @@ nav {
                 }
             }
         }
+
         .post_a_message {
             color: #1c1c1c;
             padding: 0.25rem 1rem;
@@ -53,6 +54,7 @@ nav {
             }
         }
     }
+
     .options-mobile {
         display: none;
         flex-direction: column;
@@ -68,9 +70,11 @@ nav {
         .ham1 {
 
         }
+
         .ham2 {
             transition-delay: 150ms;
         }
+
         .ham3 {
         }
 
@@ -78,10 +82,12 @@ nav {
             .ham1 {
                 transform: translateY(calc(.4rem + 2px)) rotate(45deg);
             }
+
             .ham2 {
                 transform: rotate(225deg);
                 opacity: 0;
             }
+
             .ham3 {
                 transform: translateY(calc(-.4rem - 2px)) rotate(-45deg);
             }
@@ -155,6 +161,7 @@ nav {
         .options-desktop {
             display: none;
         }
+
         .options-mobile {
             display: flex;
         }
