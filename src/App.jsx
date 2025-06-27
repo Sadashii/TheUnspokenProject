@@ -6,7 +6,7 @@ import {Stage, Layer} from "react-konva"
 import {ControlsModal, MessageContainer, Navbar, NewMessageModal} from "./components/index.js";
 
 
-const STAGE_SIZE = 5000;
+const STAGE_SIZE = 4000;
 const OFFSET = STAGE_SIZE / 2;
 
 function App() {
